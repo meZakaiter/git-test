@@ -14,3 +14,19 @@ body {
 .navbar-dark {
   background-color: #512DA8;
 }
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding : 5px 15px;
+}
+/* 
+.nav-tabs .nav-link.active, .tab-content {
+  color : white;
+  background-color: #428bca;
+}
+
+.nav-tabs .nav-link, .tab-content {
+  border: 0;
+} */
