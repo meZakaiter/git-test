@@ -30,3 +30,11 @@ body {
 .nav-tabs .nav-link, .tab-content {
   border: 0;
 } */
+
+.card-header-link, a {
+  cursor: pointer;
+}
+
+.card-header-link:hover {
+  text-decoration: none;
+}
