@@ -1,7 +1,9 @@
 $lt-gray: #ddd;
+$floral-white: #ffffff;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+
 
 // Height variables
 $carousel-item-height: 300px;
@@ -76,3 +78,26 @@ body {
     bottom: 0px;
     z-index: 1;
 }
+
+.modal-content {
+    background-color: none;
+    .modal-header {
+        background-color: $background-dark;
+        border-bottom: 1px solid $background-dark;
+        .modal-title {
+            color: $floral-white;
+        }
+        .close {
+            color: $floral-white;
+            opacity: 0.75;
+            &:focus, &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    .modal-body {
+        background-color: $background-light;
+    }    
+}
+
