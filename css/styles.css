@@ -54,7 +54,7 @@ body {
   z-index: 1; }
 
 .modal-content {
-  background-color: none; }
+  background-color: transparent; }
   .modal-content .modal-header {
     background-color: #512DA8;
     border-bottom: 1px solid #512DA8; }
