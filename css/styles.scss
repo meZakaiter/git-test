@@ -90,7 +90,7 @@ body {
         .close {
             color: $floral-white;
             opacity: 0.75;
-            &:focus, &:hover {
+            &:focus, &:hover, &:active {
                 opacity: 1;
             }
         }
